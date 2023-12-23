@@ -1,0 +1,41 @@
+/*Service channel new*/
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.service_Channel ul,.service_Channel ol,.service_Channel li{margin:0;padding:0;}
+.service_Channel {width:100%;position:relative;height:75px;font-size:11px;-webkit-text-size-adjust:none;*font:11px/11px Arial_font:11px/11px Arial;}
+#service_aBtn div {width:24.7%;height:35px;position:absolute;left:0;top:0;cursor:pointer;background:url(../../css/redmond/ui/images/servicens.gif) 0 65px repeat-x;}
+#service_aBtn div a{height:35px;display:block;cursor:pointer;width:95%;border:1px #ccc solid;text-decoration:none;outline:none;border-radius:5px 5px 0 0;-moz-border-radius:5px 5px 0 0;-webkit-border-radius:5px 5px 0 0;}
+#service_aBtn div a strong {font-size:13px;font-weight:bold;padding:10px 0 3px 5px;color:#2E6E9E;display:block;text-transform:uppercase;}
+#service_aBtn .active a strong {font-size:13px;font-weight:bold;padding:10px 0 3px 5px;color:#FF7300 !important;display:block;text-transform:uppercase;}
+#service_aBtn div a span {line-height:12px;padding-left:52px;color:#666666;display:block;}
+#service_aBtn .active {z-index:2;}
+#service_aBtn .active a {border:1px #b5b5b5 solid;border-bottom:1px #f2f2f2 solid;border-radius:5px 5px 0 0;-moz-border-radius:5px 5px 0 0;-webkit-border-radius:5px 5px 0 0;background:url(i/bg-tab-plugin.png)}
+#service_aBtn .active a:hover {border:1px #b5b5b5 solid;border-bottom:1px #f2f2f2 solid;}
+#service_aBtn .active a:hover span {background:none;}
+#service_aBtn div a:hover {border:1px #b5b5b5 solid;}
+
+/*th�m img*/
+#service_aBtn div a img {float:left;padding:5px;height:30px;}
+/*#service_aBtn div a:hover span {background:url(i/service_ico_new.gif) 32% 40px no-repeat;}*/
+
+#Service_show {position:absolute;top:35px;z-index:1;height:0;display:none;position:relative;}
+#Service_show .Service_show_li {display:none;border:1px #b4b4b4 solid;overflow:hidden;width:99.6%;word-wrap:none;border-radius:0px 5px 5px 5px;-moz-border-radius:0px 5px 5px 5px;-webkit-border-radius:0px 5px 5px 5px;}
+
+#service_aBtn #customized_btn {left:0;top:0px;}
+#service_aBtn  #inspection_btn {left:20%;top:0;}
+#service_aBtn #escrow_btn {left:40%;top:0;}
+#service_aBtn #viewhoso_btn {left:60%;top:0;}
+#service_aBtn #customized_print_btn {left:80%;top:0px;}
+
+#Service_show .item-content-tabplugin {width:100%;float:left;}
+
+#Service_show .close{font-size:10px;text-decoration:none;position:absolute;right:3px;top:10px;width:40px;padding-left:18px;height:14px;line-height:12px;background:#fff url(i/service_ico_new.gif) 0px -5px no-repeat;color:#999;font-weight:bold;cursor:pointer;}
+#Service_show .close:hover {color:#333333;background:url(i/service_ico_new.gif) 0px -20px no-repeat;}
+
+/*End Service channel*/

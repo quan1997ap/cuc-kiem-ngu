@@ -1,0 +1,468 @@
+h1
+{
+    margin:0;
+    padding:0;    
+}
+
+.Danhba-main
+{
+    height:460px;
+    width:965px;
+    border:1px solid #C8C8C8;
+    -moz-box-shadow: 0 0 5px 5px #D4D4D4;
+    -webkit-box-shadow: 0 0 5px 5px #D4D4D4;
+    box-shadow: 0 0 5px 5px #39A3D0;
+    /*#D4D4D4*/
+}
+.Danhba-main h1
+{
+    height:30px;
+    margin:0px;
+    padding:0px;
+    background-image:url(../../css/redmond/ui/images/bg-header.png);
+    background-repeat:repeat-x;
+    font-size:16px;
+    color:#3F6C3F;
+    line-height:30px;
+    padding-left:10px;
+}
+.danhba-nhom , .danhba-danhba, .danhba-chitiet
+{
+    float:left;
+    width:185px;
+    padding:10px 5px;
+}
+.danhba-details
+{
+    float:left;
+    padding:10px 5px;
+    width:350px;
+}
+.danhba-nhom h1, danhba-danhba h1
+{
+    background-image:url(../../css/redmond/ui/images/img-contact.png);       
+    padding-left:25px !important;
+    color:#494949;
+    font-family:Verdana;
+    font-weight:bold;
+    background-repeat:no-repeat;
+    background-position:0 5px;
+    
+}
+.box-btn
+{
+    float:left;
+    height:25px;
+    width:183px;
+    border:1px solid #DDDDDD;
+    margin-bottom:5px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius: 5px;
+     background-image:url(../../css/redmond/ui/images/bg-btndanhba.png);
+    background-repeat:repeat-x;    
+}
+.btn-text
+{
+    width:60px;
+    border-right:1px solid #dddddd;
+    font-size:12px;
+    color:#494949;
+    float:left;
+    line-height:25px;
+    height:25px;
+    text-align:center; 
+    text-decoration: none;   
+}
+.clear-border
+{
+    border:none;
+}
+.nhom-details
+{
+    height:350px;
+    width:183px;
+    border:1px solid #dddddd;
+    float:left; 
+}
+.nhom-details h1
+{
+    border-bottom:1px solid #dddddd;
+    height:44px;
+    background:none;
+    padding:5px;
+    padding-left:inherit !important;
+}
+.cbx-item
+{
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    padding: 0;
+    vertical-align: middle;
+    margin:0 3px 0 0;
+}
+.nhom-details h1 span
+{
+    width:100%;
+    float:left;
+    height:22px;
+    color:#666666;
+    font-size:12px;
+    font-weight:normal !important;
+    padding-left:5px;    
+}
+.Danhba-danhsach
+{
+    height:295px;
+    overflow-y:auto;
+    
+}
+.Danhba-danhsachnhom
+{
+    height:295px;
+    overflow-y:auto;
+    
+}
+.nhom-item
+{
+    float:left;
+    overflow:hidden;
+    height:25px;
+    border:1px;
+    width:100%;
+    border-bottom:1px dotted;    
+    padding-left:3px;
+}
+.nhom-itemcheck
+{
+    float:left;
+    overflow:hidden;
+    height:25px;
+    border:1px;
+    width:100%;
+    border-bottom:1px dotted; 
+    background-color: #47A9E1;
+    padding-left:3px;   
+}
+.nhom-itemcheck .danhsach-nhom-item
+{
+    color:#FFF;
+}
+.danhsach-nhom-item
+{
+    color:#484848;
+    font-size:11px;
+    line-height:25px;
+    text-transform:uppercase;    
+}
+.danhba-danhba
+{
+    width:220px;
+}
+.danhba-danhba h1
+{
+    background-image: url("../../css/redmond/ui/images/img-danhba.png");
+    background-position: 0 5px;
+    background-repeat: no-repeat;
+    color: #494949;
+    font-family: Verdana;
+    font-weight: bold;
+    padding-left: 25px !important;
+}
+.box-btn-fix
+{
+    width:220px; 
+    padding-left: 3px; 
+}
+.cheackallGroup
+{
+   line-height:22px !important;
+}
+.danhba-item
+{
+    height:46px !important;
+    text-transform:none;
+    color:#2D6D9E;
+    font-size:13px;  
+    padding-left: 3px;  
+}
+.danhba-itemcheck
+{
+    height:46px !important;
+    text-transform:none;
+    color:#2D6D9E;
+    font-size:13px; 
+    background: #47A9E1;
+    padding-left: 3px;
+}
+.danhba-itemcheck .danhba-item-info-ten
+{
+       color:#FFFFFF !important;
+}
+.danhba-itemcheck .danhba-item-info-coquan 
+{
+       color:#FFFFFF ;
+}
+.danhba-itemcheck .danhba-item-info-user
+{
+       color:#FFFFFF ;
+}
+
+.danhsach-danhba-item
+{
+    line-height:22px;
+}
+.danhba-item-info
+{
+        
+}
+.danhba-item-info-chitiet
+{
+    font-size:13px;
+    color: #2C6C9E !important; 
+    height: 25px !important;
+     
+}
+.danhba-item-info-user
+{
+     font-size:11px !important; 
+     padding-left:4px;  
+     height: 14px !important;
+}
+.danhba-item-info-coquan
+{
+     font-size:11px !important; 
+     padding-left:4px; 
+     height: 14px !important;
+}
+.box-cbk
+{
+    float:left;
+    height:100%;
+    width:20px;
+    vertical-align:top;
+}
+.danhba-item-infos
+{
+    float:left;
+    width:183px;
+    height:100%;    
+}
+.danhba-item-info
+{
+    height:15px;    
+    color:#666666;
+    font-size:11px;
+    float:left;
+    width:100%;
+    overflow:hidden;
+    line-height:17px;
+}
+.danhba-item-info-ten
+{
+    font-size:13px;
+    color: #2C6C9E !important; 
+    height: 18px !important;
+}
+.danhba-chitiet
+{
+   background:none;
+   width:505px;
+   position:relative;
+   height:425px;     
+}
+.danhba-chitiet h1
+{
+    background:none;
+    color:#494949 !important;
+    font-size:12px !important;
+    font-weight:normal;
+    text-align:right;
+}
+.txt-item
+{
+    border:none;
+    float:left;
+    line-height:25px;
+    border:1px solid #DDDDDD;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+     height:20px; 
+    width:245px;
+    margin-left: 9px;
+}
+.txt-search
+{
+    float:left;
+    font-size:12px;
+    color:#494949;
+    line-height:25px;
+}
+.box-btn-fix2
+{
+    width: 350px;
+    min-width: 280px;
+    
+    background-image:url(../../css/redmond/ui/images/bg-btndanhba.png);
+    background-repeat:repeat-x;
+}
+.box-btn-nhom
+{
+    float:left;
+    height:25px;
+    width:350px;
+    margin-bottom:5px;
+}
+.btn-text-fix
+{
+    width:68px !important;
+    text-decoration:none;
+}
+.danhba-nhom-details
+{
+    float:left;
+    width:350px;
+    height:70px;
+}
+.danhba-nhom-details a,.danhba-nhom-details-info a
+{
+    width:100%;
+    float:left;
+    line-height:30px;
+
+}
+.danhba-nhom-details a span
+{
+    font-weight:bold;
+    margin-left:20px;
+}
+.cate-flyOut-featured-header {
+    float: left;
+    font-size: 8pt;
+    font-weight: bold;
+}
+.cate-flyOut-featured-header-label {
+    float: left;
+    padding-right: 20px;
+    color:#2C6C9E;
+}
+.cate-flyOut-featured-header-line {
+    border-bottom: 1px solid #CCCCCC;
+    display: table-cell;
+    height: 10px;
+    width: 5000px;
+}
+.danhba-nhom-details-info
+{
+    float:left;
+    width:100%;
+    padding-left:30px;    
+}
+.danhba-nhom-details-info a
+{
+    width: 95%;   
+}
+.danhba-nhom-details-info a span
+{
+    font-weight:bold;
+    margin-left:10px;
+}
+.Sum-contact-box
+{
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+.Sum-contact-box a
+{
+    font-weight:bold;
+    font-size:11px;
+    margin-top:5px;    
+}
+.btn-DanhBa {
+    background-image: url("../../css/redmond/ui/images/bg-btn.png");
+    background-repeat: repeat-x;
+    border: 1px solid #F29722;
+    border-radius: 5px 5px 5px 5px;
+    color: #494949;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 30px;
+    text-decoration: none;
+    text-align: center;
+    width: 25px;
+    cursor: pointer;
+}
+
+   .Form-TinnhanMoi
+{
+    position:relative;
+    overflow:hidden;
+}
+.Form-TinnhanMoi-top
+{
+    /*height:75px;*/
+    clear:both;
+}
+.Form-TinnhanMoi-top span
+{
+    float:left;
+    /*height:75px;*/
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.TinnhanMoi-more
+{
+    background-image:url(../css/redmond/i/more-tn.png);
+    background-repeat:no-repeat;
+    background-position:5px 3px;
+    position:absolute;
+    right:10px;
+    padding-left:20px;
+    color:#666666;
+    font-size:12px;
+}
+.Form-TinnhanMoi-panel
+{
+    float:left;
+    width:100%;  
+    padding-top: 17px;  
+ 
+}
+.TinnhanMoi-item
+{
+    float:left;
+    width:96%;
+    padding-left:15px;
+    color:#0072B8;
+    font-size:12px;
+    line-height:25px;
+}
+.TinnhanMoi-item-ten-attack
+{
+    float:left;
+    font-size:13px;
+    background-image:url(../../css/redmond/i/attack-file.png);
+    background-position:0 3px;
+    background-repeat:no-repeat;
+    padding-left:25px;
+    width:95%;
+}
+.TinnhanMoi-item-ten
+{
+    float:left;
+    font-size:13px; 
+    width:96%;
+}
+.TinnhanMoi-item-from
+{
+    float: left;
+    color:#0072B8;
+}
+
+
+
+
+

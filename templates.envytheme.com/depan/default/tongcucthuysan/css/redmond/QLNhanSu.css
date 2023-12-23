@@ -1,0 +1,46 @@
+#parent
+{
+   bottom: 0;
+    display: block;
+    height: 500px;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    right: auto;
+    top: 10px;
+    visibility: visible;
+    width: 20%;
+   
+    border-radius:5px 5px 5px 5px;
+    border:1px solid #b2b2b2;
+    margin-left:10px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+#contenths
+{
+bottom: 0;
+    display: block;
+    height: 309px;
+    left: 22%;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    visibility: visible;
+    width: 78%;
+
+}
+.titeMenu
+{
+    text-transform:uppercase;
+    border-bottom:1px solid #b2b2b2;
+    padding:5px;
+    font-weight:bold;
+}
+.titleMain
+{
+   color:Blue;font-weight:bold;
+   padding:3px;
+   font-size:13px;
+}
