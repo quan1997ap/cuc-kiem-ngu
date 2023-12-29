@@ -489,6 +489,14 @@ Top Header Area CSS
     padding-bottom: 10px;
 }
 
+.top-banner-area {
+    background-image: url("../img/bg-banner.jpg");
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .top-header-area.bg-color {
     background-color: #ffffff;
     border-bottom: 1px solid #e1e1e1;
@@ -717,7 +725,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav {
-    margin: auto;
+    margin: 0 auto 0 0;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item {
