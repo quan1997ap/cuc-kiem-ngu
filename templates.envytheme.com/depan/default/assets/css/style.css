@@ -485,8 +485,8 @@ Top Header Area CSS
 
 .top-header-area {
     background-color: #111111;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 .top-banner-area {
@@ -563,9 +563,9 @@ Top Header Area CSS
 
 .top-header-social li a i {
     display: inline-block;
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
+    height: 28px;
+    width: 28px;
+    line-height: 28px;
     text-align: center;
     background-color: #ffffff;
     color: #ff661f;
@@ -736,7 +736,7 @@ Navbar Area CSS
     color: #09101f;
     font-size: 16px;
     font-weight: 500;
-    padding: 30px 12px;
+    padding: 16px 12px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
@@ -1035,7 +1035,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .others-options .option-item .search-box .form-control {
-    height: 50px;
+    height: 46px;
     padding: 8px 15px;
     border: 1px solid #eeeeee;
     background-color: #eeeeee;
@@ -1055,8 +1055,8 @@ Navbar Area CSS
     border: none;
     background-color: #ff661f;
     color: #ffffff;
-    height: 40px;
-    width: 40px;
+    height: 36px;
+    width: 36px;
     position: absolute;
     right: 5px;
     -webkit-transition: 0.5s;
@@ -1288,7 +1288,7 @@ Main News Area CSS
 =================================================*/
 
 .main-news-area {
-    padding-top: 50px;
+    padding-top: 36px;
     padding-bottom: 20px;
 }
 
@@ -1316,6 +1316,7 @@ Main News Area CSS
     overflow: hidden;
     -webkit-transition: all 1.5s ease-out;
     transition: all 1.5s ease-out;
+    height: 610px;
 }
 
 .single-main-news .news-content {
@@ -1909,21 +1910,21 @@ Default News Area CSS
     border: 1px solid #ff661f;
 }
 
-.single-politics-news {
+.single-Chính trị-news {
     margin-bottom: 30px;
 }
 
-.single-politics-news .politics-news-image {
+.single-Chính trị-news .Chính trị-news-image {
     overflow: hidden;
     position: relative;
 }
 
-.single-politics-news .politics-news-image img {
+.single-Chính trị-news .Chính trị-news-image img {
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
 
-.single-politics-news .politics-news-image i {
+.single-Chính trị-news .Chính trị-news-image i {
     font-size: 80px;
     position: absolute;
     top: 50%;
@@ -1937,33 +1938,33 @@ Default News Area CSS
     text-align: center;
 }
 
-.single-politics-news .politics-news-image i:hover {
+.single-Chính trị-news .Chính trị-news-image i:hover {
     color: #ff661f;
 }
 
-.single-politics-news .politics-news-content {
+.single-Chính trị-news .Chính trị-news-content {
     margin-top: 15px;
 }
 
-.single-politics-news .politics-news-content span {
+.single-Chính trị-news .Chính trị-news-content span {
     font-size: 14px;
     font-weight: 500;
     color: #ff661f;
 }
 
-.single-politics-news .politics-news-content h3 {
+.single-Chính trị-news .Chính trị-news-content h3 {
     font-size: 20px;
     margin-top: 12px;
     margin-bottom: 12px;
 }
 
-.single-politics-news .politics-news-content h3 a {
+.single-Chính trị-news .Chính trị-news-content h3 a {
     color: #09101f;
     position: relative;
     z-index: 1;
 }
 
-.single-politics-news .politics-news-content h3 a::before {
+.single-Chính trị-news .Chính trị-news-content h3 a::before {
     content: "";
     position: absolute;
     width: 0%;
@@ -1976,34 +1977,34 @@ Default News Area CSS
     z-index: -1;
 }
 
-.single-politics-news .politics-news-content p {
+.single-Chính trị-news .Chính trị-news-content p {
     font-weight: 400;
     font-size: 14px;
 }
 
-.single-politics-news .politics-news-content p a {
+.single-Chính trị-news .Chính trị-news-content p a {
     color: #656565;
 }
 
-.single-politics-news .politics-news-content-box span {
+.single-Chính trị-news .Chính trị-news-content-box span {
     font-size: 14px;
     font-weight: 500;
     color: #ff661f;
 }
 
-.single-politics-news .politics-news-content-box h3 {
+.single-Chính trị-news .Chính trị-news-content-box h3 {
     font-size: 20px;
     margin-top: 12px;
     margin-bottom: 12px;
 }
 
-.single-politics-news .politics-news-content-box h3 a {
+.single-Chính trị-news .Chính trị-news-content-box h3 a {
     color: #09101f;
     position: relative;
     z-index: 1;
 }
 
-.single-politics-news .politics-news-content-box h3 a::before {
+.single-Chính trị-news .Chính trị-news-content-box h3 a::before {
     content: "";
     position: absolute;
     width: 0%;
@@ -2016,57 +2017,57 @@ Default News Area CSS
     z-index: -1;
 }
 
-.single-politics-news .politics-news-content-box p {
+.single-Chính trị-news .Chính trị-news-content-box p {
     font-weight: 400;
     font-size: 14px;
 }
 
-.single-politics-news .politics-news-content-box .date {
+.single-Chính trị-news .Chính trị-news-content-box .date {
     font-weight: 400;
     font-size: 14px;
     color: #656565;
 }
 
-.single-politics-news:hover .politics-news-content h3 a {
+.single-Chính trị-news:hover .Chính trị-news-content h3 a {
     color: #ff661f;
 }
 
-.single-politics-news:hover .politics-news-content h3 a::before {
+.single-Chính trị-news:hover .Chính trị-news-content h3 a::before {
     width: 100%;
 }
 
-.single-politics-news:hover .politics-news-content p a {
+.single-Chính trị-news:hover .Chính trị-news-content p a {
     color: #ff661f;
 }
 
-.single-politics-news:hover .politics-news-content-box h3 a {
+.single-Chính trị-news:hover .Chính trị-news-content-box h3 a {
     color: #ff661f;
 }
 
-.single-politics-news:hover .politics-news-content-box h3 a::before {
+.single-Chính trị-news:hover .Chính trị-news-content-box h3 a::before {
     width: 100%;
 }
 
-.single-politics-news:hover .politics-news-image img {
+.single-Chính trị-news:hover .Chính trị-news-image img {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
-.politics-news-post {
+.Chính trị-news-post {
     margin-bottom: 30px;
 }
 
-.politics-news-post .politics-news-image {
+.Chính trị-news-post .Chính trị-news-image {
     overflow: hidden;
     position: relative;
 }
 
-.politics-news-post .politics-news-image img {
+.Chính trị-news-post .Chính trị-news-image img {
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
 
-.politics-news-post .politics-news-image i {
+.Chính trị-news-post .Chính trị-news-image i {
     font-size: 80px;
     position: absolute;
     top: 50%;
@@ -2080,23 +2081,23 @@ Default News Area CSS
     text-align: center;
 }
 
-.politics-news-post .politics-news-image i:hover {
+.Chính trị-news-post .Chính trị-news-image i:hover {
     color: #ff661f;
 }
 
-.politics-news-post .politics-news-content h3 {
+.Chính trị-news-post .Chính trị-news-content h3 {
     font-size: 18px;
     margin-top: 12px;
     margin-bottom: 12px;
 }
 
-.politics-news-post .politics-news-content h3 a {
+.Chính trị-news-post .Chính trị-news-content h3 a {
     color: #09101f;
     position: relative;
     z-index: 1;
 }
 
-.politics-news-post .politics-news-content h3 a::before {
+.Chính trị-news-post .Chính trị-news-content h3 a::before {
     content: "";
     position: absolute;
     width: 0%;
@@ -2109,31 +2110,31 @@ Default News Area CSS
     z-index: -1;
 }
 
-.politics-news-post .politics-news-content p {
+.Chính trị-news-post .Chính trị-news-content p {
     font-weight: 400;
     font-size: 14px;
 }
 
-.politics-news-post:hover .politics-news-content h3 a {
+.Chính trị-news-post:hover .Chính trị-news-content h3 a {
     color: #ff661f;
 }
 
-.politics-news-post:hover .politics-news-content h3 a::before {
+.Chính trị-news-post:hover .Chính trị-news-content h3 a::before {
     width: 100%;
 }
 
-.politics-news-post:hover .politics-news-image img {
+.Chính trị-news-post:hover .Chính trị-news-image img {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
-.politics-news-post-box {
+.Chính trị-news-post-box {
     position: relative;
     overflow: hidden;
     margin-bottom: 30px;
 }
 
-.politics-news-post-box::before {
+.Chính trị-news-post-box::before {
     position: absolute;
     content: "";
     background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#000000)), -webkit-gradient(linear, left top, left bottom, from(transparent), to(#000000));
@@ -2147,13 +2148,13 @@ Default News Area CSS
     opacity: .5;
 }
 
-.politics-news-post-box img {
+.Chính trị-news-post-box img {
     overflow: hidden;
     -webkit-transition: all 1.5s ease-out;
     transition: all 1.5s ease-out;
 }
 
-.politics-news-post-box .politics-news-content {
+.Chính trị-news-post-box .Chính trị-news-content {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -2163,19 +2164,19 @@ Default News Area CSS
     z-index: 2;
 }
 
-.politics-news-post-box .politics-news-content h3 {
+.Chính trị-news-post-box .Chính trị-news-content h3 {
     font-size: 16px;
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 12px;
 }
 
-.politics-news-post-box .politics-news-content h3 a {
+.Chính trị-news-post-box .Chính trị-news-content h3 a {
     color: #ffffff;
     position: relative;
 }
 
-.politics-news-post-box .politics-news-content h3 a::before {
+.Chính trị-news-post-box .Chính trị-news-content h3 a::before {
     content: "";
     position: absolute;
     width: 0%;
@@ -2188,21 +2189,21 @@ Default News Area CSS
     z-index: -1;
 }
 
-.politics-news-post-box .politics-news-content p {
+.Chính trị-news-post-box .Chính trị-news-content p {
     color: #ffffff;
     font-size: 14px;
 }
 
-.politics-news-post-box:hover img {
+.Chính trị-news-post-box:hover img {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
 
-.politics-news-post-box:hover .politics-news-content h3 a {
+.Chính trị-news-post-box:hover .Chính trị-news-content h3 a {
     color: #ff661f;
 }
 
-.politics-news-post-box:hover .politics-news-content h3 a::before {
+.Chính trị-news-post-box:hover .Chính trị-news-content h3 a::before {
     width: 100%;
 }
 
