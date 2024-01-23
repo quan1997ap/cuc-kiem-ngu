@@ -487,6 +487,7 @@ Top Header Area CSS
     background-color: #111111;
     padding-top: 6px;
     padding-bottom: 6px;
+    display: none;
 }
 
 .top-banner-area {
@@ -1316,6 +1317,7 @@ Main News Area CSS
     overflow: hidden;
     -webkit-transition: all 1.5s ease-out;
     transition: all 1.5s ease-out;
+    min-height: 608px;
 }
 
 .single-main-news .news-content {

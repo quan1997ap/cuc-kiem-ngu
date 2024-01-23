@@ -349,6 +349,7 @@ Top Header Area CSS
     background-color: #111111;
     padding-top: 6px;
     padding-bottom: 6px;
+    display: none;
 
     &.bg-color {
         background-color: $white-color;
@@ -1136,7 +1137,7 @@ Main News Area CSS
 =================================================*/
 .main-news-area {
     padding-top: 50px;
-    padding-bottom: 20px;
+    // padding-bottom: 20px;
 }
 .single-main-news {
     position: relative;
