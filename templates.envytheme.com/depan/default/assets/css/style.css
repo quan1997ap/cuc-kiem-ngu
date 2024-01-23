@@ -1316,7 +1316,6 @@ Main News Area CSS
     overflow: hidden;
     -webkit-transition: all 1.5s ease-out;
     transition: all 1.5s ease-out;
-    height: 610px;
 }
 
 .single-main-news .news-content {
