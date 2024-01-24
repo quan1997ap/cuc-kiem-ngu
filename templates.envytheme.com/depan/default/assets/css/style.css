@@ -496,6 +496,26 @@ Top Header Area CSS
     padding-bottom: 16px;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+}
+
+.top-banner-area::before {
+    position: absolute;
+    content: "";
+    /* background: linear-gradient(transparent, #1c1919), linear-gradient(transparent, #2e2626); */
+    background: linear-gradient(transparent, #060606), linear-gradient(transparent, #231313);
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    opacity: .7;
+}
+
+.top-banner-area .container{
+    z-index: 2;
+    position: relative;
 }
 
 .top-header-area.bg-color {
@@ -1317,7 +1337,7 @@ Main News Area CSS
     overflow: hidden;
     -webkit-transition: all 1.5s ease-out;
     transition: all 1.5s ease-out;
-    min-height: 608px;
+    height: 518px;
 }
 
 .single-main-news .news-content {
@@ -1399,6 +1419,7 @@ Main News Area CSS
 .single-main-news-inner {
     position: relative;
     overflow: hidden;
+    max-height: 220px;
 }
 
 .single-main-news-inner::before {
@@ -1518,7 +1539,7 @@ Main News Area CSS
 }
 
 .single-main-news-box .news-content h3 {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
