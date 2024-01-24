@@ -1310,7 +1310,7 @@ Main News Area CSS
 
 .main-news-area {
     padding-top: 36px;
-    padding-bottom: 20px;
+    padding-bottom: 36px;
 }
 
 .single-main-news {
@@ -1428,7 +1428,6 @@ Main News Area CSS
 .single-main-news-inner {
     position: relative;
     overflow: hidden;
-    max-height: 220px;
 }
 
 .single-main-news-inner::before {
